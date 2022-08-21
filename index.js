@@ -121,9 +121,9 @@ const convertToWords = (rule) => {
    if ( freq === "MONTHLY" ) {
 
      if ( interval && parseInt(interval) > 1 ) {
-       output = `Every ${interval} ${translate[freq]}s on ${ordinalSuffix(bymonthday)}`;
+       output = `Every ${interval} ${translate[freq]}s on the ${ordinalSuffix(bymonthday)}`;
      } else {
-       output = `Every ${translate[freq]} on ${ordinalSuffix(bymonthday)}`;
+       output = `Every ${translate[freq]} on the ${ordinalSuffix(bymonthday)}`;
      }
 
      if ( count ) {
