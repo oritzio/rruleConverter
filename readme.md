@@ -7,6 +7,17 @@ rrule converter - convert rrule string to words
 npm install rruleconverter
 ```
 
+## Demo
+
+Convert rrule
+```
+"RRULE:FREQ=WEEKLY;BYDAY=TH;INTERVAL=2;COUNT=3"
+```
+To
+```
+Every week on Thursday for 3 times
+```
+
 ## Usage
 
 ```js
@@ -29,7 +40,7 @@ rruleToWords("RRULE:FREQ=WEEKLY;BYDAY=TH")
 ```js
 rruleToWords("RRULE:FREQ=DAILY;BYHOUR=11")  // Every day at 11:00
 rruleToWords("RRULE:FREQ=DAILY;BYHOUR=13;BYMINUTE=30;COUNT=5")  // Every day at 13:30 for 5 times
-rruleToWords("RRULE:FREQ=WEEKLY;BYDAY=30;INTERVAL=2;COUNT=3")  // Every 2 weeks on Monday for 3 times
+rruleToWords("RRULE:FREQ=WEEKLY;BYDAY=MO;INTERVAL=2;COUNT=3")  // Every 2 weeks on Monday for 3 times
 rruleToWords("RRULE:FREQ=MONTHLY;BYMONTHDAY=2")  // Every month on the 2nd
 rruleToWords("RRULE:FREQ=MONTHLY;BYMONTHDAY=23;COUNT=6")  // Every month on 23rd for 6 times
 ```

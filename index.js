@@ -1,10 +1,5 @@
 // variables
 let ruleObject = {}
-// let rule = "RRULE:FREQ=MONTHLY;BYMONTHDAY=2;COUNT=3;INTERVAL=4";
-// let rule = "RRULE:FREQ=WEEKLY;BYDAY=SU,MO,FR;COUNT=5;";
-// let rule ="RRULE:FREQ=DAILY;WKST=MO;BYHOUR=15;BYMINUTE=30"
-
-
 
 // dictionary for the output
 const translate = {
