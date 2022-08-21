@@ -1,0 +1,30 @@
+{
+  "name": "rruleconverter",
+  "version": "1.0.0",
+  "description": "Convert rrule string to words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oritzio/rruleConverter.git"
+  },
+  "keywords": [
+    "rrule",
+    "rrule",
+    "converter",
+    "rrule",
+    "to",
+    "words",
+    "rrule",
+    "string",
+    "converter"
+  ],
+  "author": "Maor Tzabari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oritzio/rruleConverter/issues"
+  },
+  "homepage": "https://github.com/oritzio/rruleConverter#readme"
+}
