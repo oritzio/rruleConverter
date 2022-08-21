@@ -11,7 +11,7 @@ npm install rruleconverter
 
 Convert rrule
 ```
-"RRULE:FREQ=WEEKLY;BYDAY=TH;INTERVAL=2;COUNT=3"
+"RRULE:FREQ=WEEKLY;BYDAY=TH;COUNT=3"
 ```
 To
 ```
