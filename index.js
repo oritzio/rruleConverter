@@ -97,7 +97,11 @@ const convertToWords = (rule, timeformat) => {
       } else {
         ampm = "AM";
       }
-      output = `Every day at ${byhour > 12 ? byhour - 12 : byhour}:${byminute} ${ampm}`;
+      if ( byminute ) {
+        output = `Every day at ${byhour > 12 ? byhour - 12 : byhour}:${byminute} ${ampm}`;
+      } else {
+        output = `Every day at ${byhour > 12 ? byhour - 12 : byhour} ${ampm}`;
+      }
     }
 
     if ( timeformat == "12H") {

@@ -1,6 +1,6 @@
 {
   "name": "rruleconverter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert rrule string to words.",
   "main": "index.js",
   "scripts": {
